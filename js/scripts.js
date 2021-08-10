@@ -1,3 +1,12 @@
+jQuery(document).ready(function(){
+  jQuery("h1").click(function() {
+    alert(word);
+  });
+
+  jQuery("p").click(function() {
+    alert(runo(final));
+  });
+});
 let word = prompt("Enter a sentence");
 console.log(word);
 
@@ -40,3 +49,5 @@ return joiner;
 }
 
 console.log(runo(final));
+
+
